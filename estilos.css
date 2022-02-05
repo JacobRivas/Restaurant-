@@ -1,0 +1,150 @@
+
+div.columna-1,
+div.columna-2,
+div.columna-3 {
+
+    float: left;
+    width: 33%;
+
+}
+
+
+div.columna-2 {
+    background-color:coral ;
+
+}
+
+div.testimonio {
+    padding: 30px;
+    text-align: center;
+
+}
+
+div.testimonio img {
+  height: 100px;
+
+}
+
+div.clearfix {
+    clear: both;
+    
+
+}
+h2 {
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(42, 51, 51);
+text-align: right;
+}
+li {
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+nav {
+    display: block;
+
+  }
+
+div.fondo-inicio {
+    width:10%;
+ 
+  }  
+  body {
+    background: url("images/Meat_products_Bread_467633.jpg");
+background-size: 100%;
+  }
+
+div.contenedor-titulos {
+    font-style: italic;
+    color:white;
+    
+  }
+  div.bienvenida {
+    text-align: center;
+  }
+
+  div.contenedor-titulos h1 {
+    font-size: 70px;
+  }
+
+  div.contenedor-imagen {
+    box-sizing: border-box;
+  }
+
+button {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 60px;
+    text-align: center;
+    font-size: 25px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+button:hover {opacity: 1}
+
+div.contenedor-imagen {
+    float: left;
+    width: 33%;
+    padding: 6px;
+    background-color: #67716f;
+    border-radius: 2px;
+    height: max-content;
+  }
+
+div.clearfix::after {
+    content:"";
+    clear: both;
+    display: table;
+  }
+
+img {
+  width: 250px;
+  height: 250px;
+
+    object-fit: cover;
+    border-radius: 2px;
+  }  
+
+
+img.icono-ubicacion {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+      }  
+div.contenedor-titulos h1 {
+   margin-bottom: 10px;
+      }  
+      
+div.imagen-cuadro {
+    text-align: center;
+    width: 100%;   }  
+
+
+     
