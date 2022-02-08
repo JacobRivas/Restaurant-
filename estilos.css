@@ -131,13 +131,7 @@ img {
     object-fit: cover;
     border-radius: 2px;
   }  
-
-
-img.icono-ubicacion {
-    text-align: center;
-    width: 30px;
-    height: 30px;
-      }  
+ 
 div.contenedor-titulos h1 {
    margin-bottom: 10px;
       }  
